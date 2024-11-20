@@ -1,0 +1,16 @@
+.hero-gallery {
+    position: relative;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+    &-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.gallery-section {
+    margin: 200px 0;
+}
